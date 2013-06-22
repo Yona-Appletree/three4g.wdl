@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>net.blimster.gwt.threejs</groupId>
+	<artifactId>three4g.wdl</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<name>${project.artifactId}</name>
+	<packaging>jar</packaging>
+
+	<repositories>
+		<repository>
+			<id>maven.eclipse.org</id>
+			<url>http://maven.eclipse.org/nexus/content/groups/public/</url>
+		</repository>
+		<repository>
+			<id>xtend</id>
+			<url>http://build.eclipse.org/common/xtend/maven/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.xtend2</groupId>
+			<artifactId>org.eclipse.xtend2.lib</artifactId>
+			<version>2.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.xtext</groupId>
+			<artifactId>org.eclipse.xtext.xtend2.lib</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>net.blimster.gwt.threejs.wdl</sourceDirectory>
+	</build>
+</project> 
